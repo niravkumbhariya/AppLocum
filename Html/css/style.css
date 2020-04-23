@@ -40,15 +40,33 @@ body{font-family: 'Hind', sans-serif;}
 
 /* book appointment */
 .book-appointment{width: 100%; min-height: 840px; background: url('../images/book.png') no-repeat center center; background-size: cover;}
-
 .book-appointment .container > div{margin-top: 100px;}
 .book-appointment h5{font-size: 16px; letter-spacing: 1px; color: #1d1d1d; font-weight: 600;}
 .book-appointment .display-4{font-size: 56px; line-height: 57px; color: #0cad9d; font-weight: 700;}
 .book-appointment .lead{font-size: 20px; color: #1d1d1d; font-weight: 500;}
-
 .book-appointment ul li{font-size: 16px; color: #868686; font-weight: 400;}
 
-.book-appointment .btn-book{}
+/* article section */
+.articles-section .display-4{font-size: 46px; color: #0cad9d; font-weight: 600;}
+
+.articles-section .media-body h6{font-size: 14px; font-weight: 500; color: #0cad9d;}
+.articles-section .media-body h4{font-size: 30px; font-weight: 600; color: #1d1d1d;}
+.articles-section .article-text{font-size: 14px; line-height: 20px; color: #868686; font-weight: 400;}
+
+.articles-section .card-body .card-title{font-size: 14px; color: #0cad9d; font-weight: 500;}
+.articles-section .card-body .card-text{font-size: 20px; color: #5d5d5d; font-weight: 600;}
+
+/* download option */
+.download-section{min-height: 250px; background-image: linear-gradient(-3deg, #0bad9d 0%, #77c72d 100%);}
+.download-section .display-3{font-size: 38px; color: #ffffff; font-weight: 600;}
+.download-section p{font-size: 16px; color: #ffffff; line-height: 21px; font-weight: 400;}
+.download-section .img-group img{max-width: 203px; width: 100%; border-radius: 4px; overflow: hidden;}
+
+footer .widget-about p{font-size: 16px; letter-spacing: 1px; line-height: 26px; color: #868686; font-weight: 400;}
+footer .footer-menu .footer-widget-title{font-size: 16px; letter-spacing: 1px; line-height: 26px; color: #1d1d1d; font-weight: 600;}
+footer .footer-menu ul li a{font-size: 14px; letter-spacing: 1px; line-height: 32px; color: #868686; font-weight: 400;}
+
+footer .mini-footer ul li a{font-size: 14px; letter-spacing: 0px; line-height: 32px; color: #b0b0b0;font-weight: 400;}
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
@@ -66,6 +84,13 @@ body{font-family: 'Hind', sans-serif;}
 	.book-appointment .container > div{margin-top: 0;}
 	.book-appointment .display-4{font-size: 32px; line-height: 28px;}
 	.book-appointment .lead{width: 100% !important; font-size: 16px;}
+
+	.articles-section .display-4{font-size: 32px;}
+	.articles-section .media-body h4{font-size: 24px;}
+	.articles-section .card-body .card-text{font-size: 14px; line-height: 18px;}
+
+	.download-section .display-3{font-size: 26px;}
+	.download-section .img-group img{max-width: 140px;}
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -82,6 +107,13 @@ body{font-family: 'Hind', sans-serif;}
 	.book-appointment .display-4{font-size: 36px; line-height: 28px;}
 	.book-appointment .lead{font-size: 16px;}
 
+	.articles-section .display-4{font-size: 36px;}
+	.articles-section .media-body h4{font-size: 24px;}
+	.articles-section .card-body .card-text{font-size: 18px;}
+
+	.download-section .display-3{font-size: 32px;}
+	.download-section .img-group img{max-width: 140px;}
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -96,6 +128,12 @@ body{font-family: 'Hind', sans-serif;}
 	.book-appointment .container > div{margin-top: 0;}
 	.book-appointment .display-4{font-size: 42px; line-height: 38px;}
 	.book-appointment .lead{font-size: 18px;}
+
+	.articles-section .display-4{font-size: 42px;}
+	.articles-section .media-body h4{font-size: 26px;}
+	.articles-section .card-body .card-text{font-size: 18px;}
+
+	.download-section .display-3{font-size: 32px;}
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -103,7 +141,8 @@ body{font-family: 'Hind', sans-serif;}
 	.main-header .navbar-brand{max-width: 170px;}
 	.main-header .nav-item .btn-login{max-width: 140px;}
 
-	.carousel .carousel-item{height: 480px;}
+	.book-appointment .container > div{margin-top: 50px;}
+
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
